@@ -1,0 +1,99 @@
+/* Imported the Fonts family for our website */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Special+Elite&family=Staatliches&display=swap');
+
+/* Smallest Media port */
+/* Overall Html design format */
+html {
+	--primary-col: #F0D7D0;    /* main colour */
+	--primary-alt: #C5E5F0;    /* variant */
+	--primary-on: #000000;     /* for text or icons */
+	--secondary-col: #3399ff;
+	--secondary-alt: #99ccff;
+	--secondary-on: #000000;
+    --bg-col: #7680b9;
+    --pad-and-gap: 1em;
+    
+	/* etc, etc... */
+}
+body{
+    background-image: url('/img/Background.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+color: #7A4945;
+text-align: center;
+text-shadow: 2px 2px #fffefe;
+}
+
+.quote{
+font-style: italic;
+text-align: center;
+font-weight: bolder;
+color: #803945;
+font-size: 30px;
+}
+
+.names{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(53, 0, 0);
+}
+.inp-name1{
+    margin-left:40px;
+    width:200px;
+    padding:4px;
+    border:0.1px solid rgb(53, 0, 0);
+
+}
+.inp-name{
+    margin-left:20px;
+    width:200px;
+    padding:4px;
+    border:0.1px solid rgb(53, 0, 0);
+}
+#form{
+ display:block;
+ margin-left:38%;
+ margin-top:10%; 
+}
+.submit{
+    background-color: rgb(53, 0, 0);
+    color:white;
+    text-transform: uppercase;
+    padding:10px;
+    margin-left:80px;
+    margin-top:20px;
+    border:none;
+    border-radius:5px;
+}
+
+#getResult{
+    margin-left:35%;
+    margin-top:5%;
+}
+
+.displayData{
+    margin-left:35%;
+    margin-top: 5%;
+}
+.percentageResult{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(77, 10, 10);
+}
+
+.textResult{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color: rgb(77, 10, 10);
+}
