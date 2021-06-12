@@ -19,7 +19,7 @@ html {
 	/* etc, etc... */
 }
 body{
-    background-image: url('/img/Background.jpg');
+    background-image: url('/LoveAPI/img/Background.jpg');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
