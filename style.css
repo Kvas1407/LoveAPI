@@ -18,6 +18,8 @@ html {
     
 	/* etc, etc... */
 }
+
+/* Body design module*/
 body{
     background-image: url('/LoveAPI/img/Background.jpg');
     height: 100%; 
@@ -26,12 +28,14 @@ body{
     background-size: cover;
 }
 
+/*Heading styling part  */
 .heading{
 color: #7A4945;
 text-align: center;
 text-shadow: 2px 2px #fffefe;
 }
 
+/*Quote styling part  */
 .quote{
 font-style: italic;
 text-align: center;
@@ -40,6 +44,7 @@ color: #803945;
 font-size: 30px;
 }
 
+/* Input names styling module */
 .names{
     font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
@@ -59,11 +64,15 @@ font-size: 30px;
     padding:4px;
     border:0.1px solid rgb(53, 0, 0);
 }
+
+/*Form styling part  */
 #form{
  display:block;
  margin-left:38%;
  margin-top:10%; 
 }
+
+/*Submit button styling  */
 .submit{
     background-color: rgb(53, 0, 0);
     color:white;
@@ -75,6 +84,7 @@ font-size: 30px;
     border-radius:5px;
 }
 
+/* Results styling module */
 #getResult{
     margin-left:35%;
     margin-top:5%;
