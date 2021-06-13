@@ -1,2 +1,3 @@
-# LoveAPI
-https://kvas1407.github.io/LoveAPI/
+References:
+
+Icons are used from the following website: https://www.flaticon.com/
