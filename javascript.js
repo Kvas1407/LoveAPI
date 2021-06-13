@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("Ready!");
 
+//container Creation
 	let fname = document.querySelector(`#fname`)
 	let sname = document.querySelector(`#sname`)
 	const percent = document.querySelector(`#percent`)
@@ -16,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		}
 	})
+	
+//Connecting the api to the script
     function getMatchName(n1, n2) {
         fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${n1}&sname=${n2}`, {
 	"method": "GET",
@@ -27,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 .then(response => response.json())
 .then(response => {
 	
+// Displaying the results
 	console.log(response);
  percentage.innerHTML=`<p>Percentage: ${response.percentage} %</p>`;
  textResult.innerHTML= `<p>Your Result is: ${response.result} !! </p>`;
